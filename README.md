@@ -1,7 +1,7 @@
 # Automated-ForexTradingAlgorithms
 Repository contains Forex Algorithms using automated strategies with FXCM, Oanda REST APIs.
 
-# [FX_RenkoMACD.py](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
+### [FX_RenkoMACD.py](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
 
 # Broker Section
 
