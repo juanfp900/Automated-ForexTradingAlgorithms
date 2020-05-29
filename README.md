@@ -4,8 +4,8 @@ Repository contains Forex Algorithms using automated strategies with FXCM, Oanda
 ### The following algorithms will use the following broker to trade currencies in real time. Trades will be displayed in the open position section
 ![Image of FXCM](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/FXCM.png)
 
-# [FX_RenkoMACD.py Algorithm Description](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
-## Algorithm Description
+# [FX_RenkoMACD.py](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
+## FX_RenkoMACD Algorithm Description
 This algorithim uses the FXCM broker API to trade currency pairs. Decisions for placing orders depends 
 on MACD, Renko Chart indicators. The algorithm is intended to work for both 1min and 5min candles.
 
