@@ -6,7 +6,7 @@ Repository contains Forex Algorithms using automated strategies with FXCM, Oanda
 This algorithim uses the FXCM broker API to trade currency pairs. Decisions for placing orders depends 
 on MACD, Renko Chart indicators. The algorithm is intended to work for both 1min and 5min candles.
 
-To buy orders (long position) the following conditions will need to be met:
+To **buy orders (long position)** the following conditions will need to be met:
   1. The MACD (12,26) will need to trend higher the signal MACD line (9)
     - MACD >= Signal-MACD
   2. The slope of MACD should be higher than the signal MACD line slope. Absolute slope is not used.
@@ -14,7 +14,7 @@ To buy orders (long position) the following conditions will need to be met:
   3. There should be two consecutive green Renko Bars trending up.
       (Renko Bars track price movement rather than both price and time as candle sticks do)
  
- To sell orders (short position) the following conditions will need to be met:
+ To **sell orders (short position)** the following conditions will need to be met:
   1. The MACD (12,26) will need to trend below the signal MACD line (9)
     - MACD =< Signal-MACD
   2. The slope of MACD should be less than the signal MACD line slope. Absolute slope is not used.
