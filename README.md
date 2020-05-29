@@ -10,7 +10,7 @@ Repository contains Forex Algorithms using automated strategies with FXCM, Oanda
 # You will need to get a REST API token for FXCM
 ![Image of FXCM token](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/TokenFXCM.png)
 
-### Algorithm Section
+# Algorithm Section
 
 # [FX_RenkoMACD.py](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
 ## FX_RenkoMACD Algorithm Description
