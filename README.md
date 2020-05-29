@@ -44,9 +44,6 @@ To run on AWS you must create a free **[AWS account](https://aws.amazon.com/free
 
 ![Image of Terminate Button](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/AWS_terminateMenu.png)
 
-![Image of FXCM](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/AWS_terminateMenu.png)
-
-
 
 
        
