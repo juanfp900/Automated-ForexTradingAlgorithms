@@ -9,8 +9,10 @@ Repository contains Forex Algorithms using automated strategies with FXCM, Oanda
 ### Trades will update in real time and shown in the open position section in the below screenshot.
 ![Image of FXCM broker](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/FXCM.png)
 
-You will need to get a REST API token for FXCM
+
 ![Image of FXCM token](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/TokenFXCM.png)
+You will need to create a free FXCM account and get your own REST API token for FXCM
+[github link](https://fxcm.github.io/rest-api-docs/#section/Getting-Started)
 
 # Algorithm Section
 
