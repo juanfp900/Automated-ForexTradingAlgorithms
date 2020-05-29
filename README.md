@@ -1,10 +1,10 @@
 # Automated-ForexTradingAlgorithms
 Repository contains Forex Algorithms using automated strategies with FXCM, Oanda REST APIs.
 
-### Broker Section
+# Broker Section
 
-## FXCM Broker
-# Trades will be displayed in the open position section shown in the below screenshot in real time.
+### FXCM Broker
+### Trades will be displayed in the open position section shown in the below screenshot in real time.
 ![Image of FXCM broker](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/FXCM.png)
 
 # You will need to get a REST API token for FXCM
