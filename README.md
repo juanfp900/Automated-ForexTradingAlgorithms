@@ -25,16 +25,18 @@ To **buy orders (long position)** the following conditions will need to be met:
  **If neither** condition is met. A no order is printed to console for that specific currency pair and the algorithm loops to next curency pair
 
 # Run Algorithm on Amazon Web Service EC2 instance
-To run on AWS you must create AWS account and navigate to the AWS EC2 portal:
+To run on AWS you must create a free **[AWS account](https://aws.amazon.com/free/} and navigate to the AWS EC2 portal:
 1. Navigate to EC2 dashboard
 2. Select Create New Instance.
 3. Select Amazon Linux 2 AMI (HVM), SSD Volume Type (Free tier)
 4. Select General Purpose t2.micro (Free tier)
-5. Once EC22 instance is created you  must save the .pem key file you get in a local directory. 
-6. You will need to SSH using this key to connect to an Amazon EC2 instance 
+5. Once EC2 instance is created you  must save the .pem key file you get in a local directory. 
+6. You will need to SSH using this key to connect to your Amazon account. 
 7. The EC2 instance will not have Python, Pip or any packages installed. 
-    - You will need to install Python3.7, Pip in the Amazon EC2 instance  
-8. Note: Best to send your requirements.txt file to EC2 instead of installing individual packages using Pip in AWS.
+    - You will need to install Python3.7, Pip in the Amazon EC2 instance using **[AWS Elastic Beanstalk Tutorial](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-linux.html)
+8. Note: It is best to send the requirements.txt file containing all Python packages to EC2 rather than installing each individual package using Pip. 
+10. Run the Python script on AWS EC2. 
+9. After running program you should **Terminate** your EC2 instance to prevent hidden charges. 
        
        
        
