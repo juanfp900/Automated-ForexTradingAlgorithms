@@ -31,6 +31,8 @@ To buy orders (long position) the following conditions will need to be met:
 # The Algorithm can be ran locally or using Amazon Web Service EC2 instance. (AWS)
 
 To run on AWS you must create AWS account and navigate to the AWS EC2 portal:
+       1. The MACD (12,26) will need to trend higher the signal MACD line (9)
+          - MACD >= Signal-MACD
        1. Navigate to EC2 dashboard
        2. Select Create New Instance.
        3. Select Amazon Linux 2 AMI (HVM), SSD Volume Type (Free tier)
