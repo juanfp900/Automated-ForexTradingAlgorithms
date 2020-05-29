@@ -30,7 +30,7 @@ To buy orders (long position) the following conditions will need to be met:
 
 # The Algorithm can be ran locally or using Amazon Web Service EC2 instance. (AWS)
 
-To run on AWS you must create AWS account and navigate to the AWS EC2 portal.
+To run on AWS you must create AWS account and navigate to the AWS EC2 portal:
        1. Navigate to EC2 dashboard
        2. Select Create New Instance.
        3. Select Amazon Linux 2 AMI (HVM), SSD Volume Type (Free tier)
@@ -38,8 +38,13 @@ To run on AWS you must create AWS account and navigate to the AWS EC2 portal.
        5. Once EC22 instance is created you  must save the .pem key file you get in a local directory. 
        6. You will need to SSH using this key to connect to an Amazon EC2 instance 
        7. The EC2 instance will not have Python, Pip or any packages installed. 
-        You will need to install Python3.7, Pip in the Amazon EC2 instance  
+          - You will need to install Python3.7, Pip in the Amazon EC2 instance  
        8. Note: Best to send your requirements.txt file to EC2 instead of installing individual packages using Pip in AWS.
+       
+       
+       
+       
+       
 
 
 
