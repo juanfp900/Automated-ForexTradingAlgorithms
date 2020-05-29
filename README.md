@@ -5,7 +5,7 @@ To view the different algorithms click the links below
   [FX_RenkoMACD.py](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
 
 
-# FX_RenkoMACD.py (https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
+# [FX_RenkoMACD.py](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
  Algorithm Description
 This algorithim uses the FXCM broker API to trade currency pairs. Decisions for placing orders depends 
 on MACD, Renko Chart indicators. The algorithm is intended to work for both 1min and 5min candles.
