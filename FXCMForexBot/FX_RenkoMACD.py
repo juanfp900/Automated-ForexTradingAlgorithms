@@ -11,7 +11,7 @@ class FXRenkoMACD:
         self.pairs = ['EUR/USD','GBP/USD','USD/CHF','AUD/USD','USD/CAD','AUD/NZD','NZD/USD']
 
     def connectToFX_API(self):
-        TOKEN = '18c0206a954636b42e7404ca8254b5db37799df6'
+        TOKEN = '########################################'
         con = fxcmpy.fxcmpy(access_token = TOKEN, log_level = 'error', server='demo')
         return con
 
