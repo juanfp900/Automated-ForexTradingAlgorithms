@@ -12,7 +12,7 @@ To **buy orders (long position)** the following conditions will need to be met:
   2. The slope of MACD should be higher than the signal MACD line slope. 
     - MACD slope > Signal-MACD slope
   3. There should be two consecutive green Renko Bars trending up.
-      (Renko Bars track price movement rather than both price and time as candle sticks do)
+ 
  
  To **sell orders (short position)** the following conditions will need to be met:
   1. The MACD (12,26) will need to trend below the signal MACD line (9)
@@ -20,7 +20,7 @@ To **buy orders (long position)** the following conditions will need to be met:
   2. The slope of MACD should be less than the signal MACD line slope.
     - MACD slope < Signal-MACD slope
   3. There should be two consecutive green Renko Bars trending up.
-      (Renko Bars track price movement rather than both price and time as candle sticks do)
+    
  
  
  If neither condition is met. A no order is printed to console for that specific currency pair and the algorithm loops to next curency pair
