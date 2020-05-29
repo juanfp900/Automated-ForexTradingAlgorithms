@@ -2,7 +2,7 @@
 Repository contains Forex Algorithms using automated strategies with FXCM, Oanda REST APIs
 
 #Algorithm Description
-# FXCMTradingBot
+ FXCMForexBot(https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
 
 # Algorithm Description
 This algorithim uses the FXCM broker API to trade currency pairs. Decisions for placing orders depends 
