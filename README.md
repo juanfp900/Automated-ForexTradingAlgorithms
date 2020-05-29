@@ -26,10 +26,10 @@ To **buy orders (long position)** the following conditions will need to be met:
 
 # Run Algorithm on Amazon Web Service EC2 instance
 To run on AWS you must create a free **[AWS account](https://aws.amazon.com/free/) and navigate to the AWS EC2 portal:
-1. Navigate to EC2 dashboard
+1. Navigate to EC2 dashboard.
 2. Select Create New Instance.
-3. Select Amazon Linux 2 AMI (HVM), SSD Volume Type (Free tier)
-4. Select General Purpose t2.micro (Free tier)
+3. Select Amazon Linux 2 AMI (HVM), SSD Volume Type (Free tier).
+4. Select General Purpose t2.micro (Free tier).
 5. Once EC2 instance is created you  must save the .pem key file you get in a local directory. 
 6. You will need to SSH using this key to connect to your Amazon account. 
 7. The EC2 instance will not have Python, Pip or any packages installed. 
