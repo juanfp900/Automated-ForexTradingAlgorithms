@@ -1,11 +1,7 @@
 # Automated-ForexTradingAlgorithms
 Repository contains Forex Algorithms using automated strategies with FXCM, Oanda REST APIs.
 
-To view the different algorithms click the links below
-  [FX_RenkoMACD.py](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
-
-
-# [FX_RenkoMACD.py](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
+# [FX_RenkoMACD.py Algorithm Description](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
  Algorithm Description
 This algorithim uses the FXCM broker API to trade currency pairs. Decisions for placing orders depends 
 on MACD, Renko Chart indicators. The algorithm is intended to work for both 1min and 5min candles.
@@ -31,8 +27,8 @@ To buy orders (long position) the following conditions will need to be met:
 
 # The Algorithm can be ran locally or using Amazon Web Service EC2 instance
 To run on AWS you must create AWS account and navigate to the AWS EC2 portal:
-       1. Navigate to EC2 dashboard
-       2. Select Create New Instance.
+       1.Navigate to EC2 dashboard
+       2.Select Create New Instance.
        3. Select Amazon Linux 2 AMI (HVM), SSD Volume Type (Free tier)
        4. Select General Purpose t2.micro (Free tier)
        5. Once EC22 instance is created you  must save the .pem key file you get in a local directory. 
