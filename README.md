@@ -2,7 +2,7 @@
 Repository contains Forex Algorithms using automated strategies with FXCM, Oanda REST APIs.
 
 # [FX_RenkoMACD.py Algorithm Description](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/FX_RenkoMACD.py)
- Algorithm Description
+## Algorithm Description
 This algorithim uses the FXCM broker API to trade currency pairs. Decisions for placing orders depends 
 on MACD, Renko Chart indicators. The algorithm is intended to work for both 1min and 5min candles.
 
@@ -22,8 +22,7 @@ To **buy orders (long position)** the following conditions will need to be met:
   3. There should be two consecutive green Renko Bars trending up.
     
  
- 
- If neither condition is met. A no order is printed to console for that specific currency pair and the algorithm loops to next curency pair
+ **If neither** condition is met. A no order is printed to console for that specific currency pair and the algorithm loops to next curency pair
 
 # The Algorithm can be ran locally or using Amazon Web Service EC2 instance
 To run on AWS you must create AWS account and navigate to the AWS EC2 portal:
