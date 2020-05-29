@@ -11,6 +11,7 @@ Repository contains Forex Algorithms using automated strategies with FXCM, Oanda
 
 
 ![Image of FXCM token](https://github.com/juanfp900/Automated-ForexTradingAlgorithms/blob/master/FXCMForexBot/Images/TokenFXCM.png)
+
 You will need to create a free FXCM account and get your own REST API token for FXCM
 [github link](https://fxcm.github.io/rest-api-docs/#section/Getting-Started)
 
